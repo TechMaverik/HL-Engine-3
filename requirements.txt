@@ -1,0 +1,12 @@
+fastapi[standard]
+cyclonedds == 0.10.2
+opencv-python
+opencv-contrib-python
+Pillow
+numpy
+matplotlib
+wikipedia
+pybase64
+scikit-learn
+cyclonedds
+unitree_sdk2py
