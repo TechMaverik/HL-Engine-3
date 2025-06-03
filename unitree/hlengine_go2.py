@@ -1,12 +1,18 @@
 """HLEngine3 Unitree Go2 Control System"""
 
+from constants import *
 from unitree_sdk2py.go2.sport.sport_client import SportClient
+from unitree_sdk2py.core.channel import ChannelFactoryInitialize
 
 
 class HLEngineGo2RobotControlSystem:
     """HLEngine3 Go2 Robot Control System"""
 
     def __init__(self):
+        try:
+            ChannelFactoryInitialize(0, NETWORK_INTERFACE)
+        except:
+            pass
         self.go2_sports_client = SportClient()
         self.go2_sports_client.SetTimeout(25.0)
         self.go2_sports_client.Init()
@@ -26,7 +32,7 @@ class HLEngineGo2RobotControlSystem:
     def stop_movement_go2(self):
         self.go2_sports_client.StopMove()
 
-    def switch_gate_go2(self, param: bool):  # takes 0 or 1 as param
+    def switch_gate_go2(self, param: bool):
         self.go2_sports_client.SwitchGait(param)
 
     def balanced_stand_go2(self):
