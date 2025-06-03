@@ -34,3 +34,24 @@ class HLEngineGo2RobotControlSystem:
 
     def recovery_stand_go2(self):
         self.go2_sports_client.RecoveryStand()
+
+    def left_flip_go2(self):
+        self.go2_sports_client.LeftFlip()
+
+    def back_flip_go2(self):
+        self.go2_sports_client.BackFlip()
+
+    def free_walk_go2(self):
+        self.go2_sports_client.FreeWalk(True)
+
+    def walk_stair(self, status):
+        self.go2_sports_client.WalkStair(status)
+
+    def walk_upright(self, status):
+        self.go2_sports_client.WalkUpright(status)
+
+    def cross_step(self, status):
+        self.go2_sports_client.CrossStep(status)
+
+    def free_jump(self, status):
+        self.go2_sports_client.FreeJump(status)

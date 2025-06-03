@@ -5,9 +5,8 @@ from unitree.hlengine_go2 import HLEngineGo2RobotControlSystem
 
 class Services:
 
-    def __init__(self):
+    def emergency_shutdown(self):
+        HLEngineGo2RobotControlSystem().damp_go2()
 
-        try:
-            HLEngineGo2RobotControlSystem()
-        except:
-            return None
+    def standup(self):
+        HLEngineGo2RobotControlSystem().stand_up_go2()
