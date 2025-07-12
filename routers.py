@@ -23,18 +23,25 @@ def go2_standdown():
 def go2_forward():
     go2().movement(1, 0, 0)
 
+@engine.get("/go2_backward")
+def go2_backward():
+    go2().movement(-1, 0, 0)
+
 @engine.get("/go2_left")
 def go2_left():
     go2().movement(0, 1, 0)
 
-@engine.get("/go2_rotate")
-def go2_rotate():
+@engine.get("/go2_right")
+def go2_right():
+    go2().movement(0, -1, 0)
+
+@engine.get("/go2_rotate_left")
+def go2_rotate_left():
     go2().movement(0, 0, 1)
 
-@engine.get("/go2_move")
-def go2_move(Go2: Go2):
-    print(Go2.x, Go2.y, Go2.z)
-    go2().movement(Go2.x, Go2.y, Go2.z)
+@engine.get("/go2_rotate_right")
+def go2_rotate_right():
+    go2().movement(0, 0, -1)
 
 @engine.get("/stop")
 def stop():
