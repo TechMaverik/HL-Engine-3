@@ -1,9 +1,9 @@
-"""HL-Engine-Services"""
+"""HL-Engine-Movement-Services"""
 
 from unitree.hlengine_go2 import HLEngineGo2RobotControlSystem
 
 
-class Go2Services:
+class Go2MovementServices:
 
     def emergency_shutdown(self):
         HLEngineGo2RobotControlSystem().damp_go2()
@@ -46,3 +46,5 @@ class Go2Services:
 
     def jump(self):
         HLEngineGo2RobotControlSystem().free_jump()
+
+

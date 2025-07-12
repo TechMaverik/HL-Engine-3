@@ -1,6 +1,6 @@
 """HLEngine3 Unitree Go2 Control System"""
 
-from constants import *
+from configurations import *
 from unitree_sdk2py.go2.sport.sport_client import SportClient
 from unitree_sdk2py.core.channel import ChannelFactoryInitialize
 

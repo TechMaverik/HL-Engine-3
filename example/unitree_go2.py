@@ -1,3 +1,3 @@
-from hlengine_services import Go2Services
+from go2_movement_services import Go2MovementServices
 
-Go2Services().standdown()
+Go2MovementServices().standdown()
