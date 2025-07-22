@@ -6,7 +6,7 @@ from unitree_sdk2py.core.channel import ChannelFactoryInitialize
 
 
 class HLEngineGo2RobotControlSystem:
-    """HLEngine3 Go2 Robot Control System"""
+    """HL-Engine-3 Go2 Robot Control System"""
 
     def __init__(self):
         try:
