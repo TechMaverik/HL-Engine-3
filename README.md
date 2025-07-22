@@ -29,7 +29,6 @@ In Custom Mode you can add your custom api to the existing HL Engine 3 library f
 * run <code>python -r requirements.txt</code>
 <br>
 ## About
-
 Designed and Developed by Akhil P Jacob
 <br>
 
