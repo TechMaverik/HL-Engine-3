@@ -9,5 +9,5 @@ wikipedia
 pybase64
 scikit-learn
 cyclonedds
-unitree_sdk2py
+# unitree_sdk2py
 requests
