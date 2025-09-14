@@ -1,4 +1,4 @@
-![HLDi](https://github.com/user-attachments/assets/0b6170ec-4f88-47c1-9338-bacce7678301)
+<image src="hlengine3.png"/></image>
 # HL-Engine-3
 Why use multiple tools to control different robots when HL Engine does it all?
 
