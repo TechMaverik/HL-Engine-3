@@ -22,11 +22,7 @@ In Custom Mode you can add your custom api to the existing HL Engine 3 library f
 ## Installation
 * Install python 3.10 or greater versions
 * Download HL-Engine-3
-* Create a virtual Environment
-<code> python - m venv .hlengine</code>
-* Activate Virtual environment
-<code>source .hlengine/bin/activate</code> for Linux.
-* run <code>python -r requirements.txt</code>
+* Run the setup.sh using the command ./setup.sh, If permission issue try run chmod +x ./setup.sh first then run ./setup.sh
 <br>
 Designed and Developed by Akhil Jacob
 
