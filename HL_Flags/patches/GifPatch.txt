@@ -1,0 +1,4 @@
+
+sudo apt-get install ffmpeg zlib* libjpeg* python3-setuptools
+pip3 install --user gif-for-cli
+gif-for-cli "Tiger.gif"

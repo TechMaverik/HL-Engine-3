@@ -11,3 +11,26 @@ scikit-learn
 cyclonedds
 # unitree_sdk2py
 requests
+pyserial
+pygame
+pyttsx3
+playsound
+gTTS
+PyDictionary
+pyzbar
+SpeechRecognition
+nltk
+textblob
+subprocess.run
+wikipedia
+pybase64
+pytesseract
+pyowm
+pandas
+google-search
+googlemultitasking
+scikit-learn
+pycryptodome
+python_jwt
+python-nmap
+pyfirmata
