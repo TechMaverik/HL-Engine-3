@@ -1,7 +1,7 @@
 """
 HL_Engine_Image_Processing.py
 Author:Akhil P Jacob
-HLDynamic-Integrations
+HL-Engine-3.0
 """
 
 import cv2

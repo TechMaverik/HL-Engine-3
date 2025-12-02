@@ -8,11 +8,8 @@ matplotlib
 wikipedia
 pybase64
 scikit-learn
-cyclonedds
-# unitree_sdk2py
 requests
 pyserial
-pygame
 pyttsx3
 playsound
 gTTS
@@ -30,7 +27,6 @@ pandas
 google-search
 googlemultitasking
 scikit-learn
-pycryptodome
 python_jwt
 python-nmap
 pyfirmata

@@ -12,7 +12,7 @@ class HLEngineG1RobotControlSystem:
 
     def __init__(self):
         try:
-            ChannelFactoryInitialize(0, NETWORK_INTERFACE)
+            ChannelFactoryInitialize(0, NETWORK_INTERFACE_UNITREE)
         except:
             pass
         self.g1_arm = G1ArmActionClient()

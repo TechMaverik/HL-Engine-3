@@ -10,7 +10,7 @@ class HLEngineGo2RobotControlSystem:
 
     def __init__(self):
         try:
-            ChannelFactoryInitialize(0, NETWORK_INTERFACE)
+            ChannelFactoryInitialize(0, NETWORK_INTERFACE_UNITREE)
         except:
             pass
         self.go2_sports_client = SportClient()

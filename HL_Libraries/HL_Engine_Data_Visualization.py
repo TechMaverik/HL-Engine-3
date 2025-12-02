@@ -1,7 +1,7 @@
 """
 HL_Engine_Data_Visualization.py
 Author:Akhil P Jacob
-HLDynamic-Integrations
+HL-Engine-3.0
 """
 
 from matplotlib import style

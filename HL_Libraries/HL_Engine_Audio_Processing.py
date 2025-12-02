@@ -1,14 +1,14 @@
 """
-HL_Engine_sR.py
+HL_Engine_Audio_Processing.py
 Author:Akhil P Jacob
-HLDynamic-Integrations
+HL-Engine-3.0
 """
 
-import pygame
+
 import pyttsx3
 from gtts import gTTS
 from playsound import playsound as play_music
-import HL_CommonDependency
+
 
 
 class AudioSpeechEngine:
