@@ -1,6 +1,6 @@
 """HL_Engine_Network_Processing.py"""
 import nmap
-from HL_Engine_2.HL_CommonDependency import *
+from HL_CommonDependency import *
 
 
 class NetworkProcessEngine:

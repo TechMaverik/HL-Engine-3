@@ -1,8 +1,8 @@
 """HLEngine3 Unitree Go2 Control System"""
 
 from configurations import *
-from unitree_sdk2py.go2.sport.sport_client import SportClient
-from unitree_sdk2py.core.channel import ChannelFactoryInitialize
+from unitree.unitree_sdk2py.go2.sport.sport_client import SportClient
+from unitree.unitree_sdk2py.core.channel import ChannelFactoryInitialize
 
 
 class HLEngineGo2RobotControlSystem:

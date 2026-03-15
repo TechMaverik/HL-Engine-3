@@ -2,9 +2,9 @@ import sys
 import time
 from dataclasses import dataclass
 from configurations import *
-from unitree_sdk2py.core.channel import ChannelSubscriber, ChannelFactoryInitialize
-from unitree_sdk2py.g1.arm.g1_arm_action_client import G1ArmActionClient
-from unitree_sdk2py.g1.arm.g1_arm_action_client import action_map
+from unitree.unitree_sdk2py.core.channel import ChannelSubscriber, ChannelFactoryInitialize
+from unitree.unitree_sdk2py.g1.arm.g1_arm_action_client import G1ArmActionClient
+from unitree.unitree_sdk2py.g1.arm.g1_arm_action_client import action_map
 
 
 class HLEngineG1RobotControlSystem:

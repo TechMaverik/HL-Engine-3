@@ -20,7 +20,7 @@ In Host mode, the HL Engine 3 is installed on your laptop or desktop where the r
 In Custom Mode you can add your custom api to the existing HL Engine 3 library for your custom robots which is ideal for research and development.
 
 ## Installation
-* Install python 3.10 or greater versions
+* Install python 3.10 
 * Download HL-Engine-3
 * Run the setup.sh using the command ./setup.sh, If permission issue try run chmod +x ./setup.sh first then run ./setup.sh
 <br>
