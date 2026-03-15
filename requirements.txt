@@ -14,7 +14,6 @@ requests
 pyserial
 pygame
 pyttsx3
-playsound
 gTTS
 PyDictionary
 pyzbar
@@ -27,8 +26,6 @@ pybase64
 pytesseract
 pyowm
 pandas
-google-search
-googlemultitasking
 scikit-learn
 pycryptodome
 python_jwt
